@@ -2,11 +2,9 @@ const TelegramBot = require("node-telegram-bot-api");
 const { Client } = require("ssh2");
 const { exec } = require("child_process");
 const fs = require("fs");
-const { createCanvas } = require('canvas');
 const FormData = require('form-data');
 const path = require("path");
 const axios = require("axios");
-const archiver = require('archiver');
 const settings = require("./settings");
 
 //━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
